@@ -11,13 +11,14 @@
 # O seu IMC é: 26.83
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+
 print('|',60*'-','|')
 print('|',22*'-','SISTEMA DE IMC',22*'-','|')
 print('|',60*'-','|')
 altura=float(input('| Digite sua altura: '))
 peso=float(input('| Digitr o seu peso: '))
 calculo_imc= peso / (altura ** 2)
-imc=round (calculo_imc,2) print()
+imc=round (calculo_imc,2)
 print('|')
 print('| Seu IMC é',imc)
 print('|',60*'-','|')

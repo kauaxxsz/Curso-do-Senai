@@ -14,7 +14,7 @@ print('|',40*'-','|')
 numero1=float(input('| Digite um número: '))
 numero2=float(input('| Digite outro número: '))
 soma=numero1+numero2
-resultado=round(soma,0)
+resultado=round(soma,2)
 print()
 print('|',40*'-','|')
 print(f'| A soma entre {numero1} e {numero2} é: {resultado}')

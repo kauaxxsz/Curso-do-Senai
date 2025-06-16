@@ -24,4 +24,22 @@
 # O valor em dólares é $26.55
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
-
+print()
+print('Escolha uma opção')
+print('1 - Dollar para Real')
+print('2 - Real para Dollar')
+escolha=int(input('Informe uma das opções: '))
+if escolha==1:
+    dollar=float(input('Informe a cotação do Dollar: '))
+    convercao=float(input('Digite o valor em Dollar a ser convertido em real: '))
+    real=dollar*convercao
+    resultado=round(real,2)
+    print(f'O valor em reais é: {real}')
+elif escolha==2:
+    real=float(input('Digite o valor em Real a ser convertido em Dollar: '))
+    dollar=float(input('Informe a cotação do Dollar: '))
+    convercao=real/dollar
+    resultado=round(convercao,2)
+    print(f' O valor em dólares é $ {convercao}')
+else:
+    print('ERROOORRRRRR')

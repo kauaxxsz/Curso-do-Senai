@@ -17,3 +17,12 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+print('|',60*'-','|')
+print('|',20*'-','SISTEMA DE PROVAS2',20*'-','|')
+print('|',60*'-','|')
+prova1=float(input('| Informe a nota da primeira prova: '))
+prova2=float(input('| Informe a nota da segunda prova: '))
+soma=(prova1+prova2)/2
+print('|')
+print('|  Aluno aprovado? ',soma>=7)
+print('|',60*'-','|')

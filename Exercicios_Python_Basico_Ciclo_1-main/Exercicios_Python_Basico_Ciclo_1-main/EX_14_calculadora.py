@@ -52,3 +52,43 @@
 
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+print('|',40*'-','|')
+print('|',14*'-','CALCULADORA', 13*'-','|')
+print('|',40*'-','|')
+print('| 1 - Soma')
+print('| 2 - Subtração')
+print('| 3 - Multiplicação')
+print('| 4 - Divisão')
+print('| ')
+escolha=int(input('| Escolha uma das opções acima: '))
+print('|',40*'-','|')
+numero_1=float(input('| Primeiro numero a ser calculado: ')) 
+numero_2=float(input('| Segundo numero a ser calculado: '))
+print('|')
+if escolha==1:
+    # numero_1=float(input('| Primeiro numero a ser calculado: '))
+    # numero_2=float(input('| Segundo numero a ser calculado: '))
+    calculo=numero_1+numero_2
+    resultado=round(calculo,2)
+    print(f'| A soma de {numero_1} + {numero_2} é {resultado}')
+elif escolha==2:
+#     numero_1=float(input('| Primeiro numero a ser calculado: '))
+#     numero_2=float(input('| Segundo numero a ser calculado: '))
+    calculo=numero_1-numero_2
+    resultado=round(calculo,2)
+    print(f'| O resultado de {numero_1} - {numero_2} é {resultado}')
+elif escolha==3:
+    # numero_1=float(input('| Primeiro numero a ser calculado: '))
+    # numero_2=float(input('| Segundo numero a ser calculado: '))
+    calculo=numero_1*numero_2
+    resultado=round(calculo,2)
+    print(f'| O resultado de {numero_1} x {numero_2} é {resultado}')
+elif escolha==4:
+    # numero_1=float(input('| Primeiro numero a ser calculado: '))
+    # numero_2=float(input('| Segundo numero a ser calculado: '))
+    calculo=numero_1/numero_2
+    resultado=round(calculo,2)
+    print(f'| O resultado de {numero_1} dividido por {numero_2} é {resultado}')
+else:
+    print('ERROORRRRRR')
+print('|',40*'-','|')

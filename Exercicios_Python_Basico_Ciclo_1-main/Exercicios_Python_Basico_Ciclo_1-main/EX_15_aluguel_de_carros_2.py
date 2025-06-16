@@ -37,3 +37,25 @@
 # Você andou 100.0km por 10 dias, então o preço a pagar é R$615.00.
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+print('|',65*'-','|')
+print('|',23*'-',"ALUGUEL DE CARROS",23*'-','|')
+print('|',65*'-','|')
+carro=input('| Informe o veiculo desejado para ver o aluguel: ')
+dias=int(input('| Quantos dias o carro foi alugado: '))
+km=float(input('| Quantos Km foram rodados com o carro: '))
+
+if carro=='BMW I8':
+    diaria=600
+elif carro=='Celta':
+    diaria=200
+elif carro=='Uno':
+    diaria=500
+else:
+    diaria= 60
+
+
+calculo=diaria*dias+0.15*km
+resultado=round(calculo,2)
+print('|')
+print(f'| Você andou {km}km por {dias} dias, então o preço a pagar é R${resultado}.')
+print('|',65*'-','|')
